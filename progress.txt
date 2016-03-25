@@ -1,0 +1,41 @@
+SET UP THE COMPUTER
+1. Time to get out to that garage and find that old computer.  It needs to be working, though. Plug in the computer and turn it on.  
+2. If scratch has a hard time running, you may need to delete files off that computer.  If you still can't run it very well, you may just need to uninstall everything except for scratch. Your browser can stay as well.  Install the Scatch 2 Offline editor if you haven't already.
+3. When you go into this project, you need to go to file>Download to your computer if you haven't already. Do this on the online editor, not on the offline editor in case you were wondering.  
+4. Open this project in the offline editor.  Don't start it yet, though. We still need to build the motor assembly.  Preferably do this on the computer you are reading these instructions on.  
+
+1. Download the Lego Digital Designer.  It can be downloaded here: http://cache.lego.com/downloads/ldd2.0/installer/setupLDD-PC-4_3_8.exe.  You can go to their website to download the latest version but that is the download link. If you need to download the Mac version, you need to go to their website also.
+Download size is 215MB for this particular one.  Additional approximate 400MB download required after installation.  After you have installed the lego digital designer, you will need to download this file here, that explains what you need to build in order to make it work.  
+2. Download the Lego model here: kilgorei.pairserver.com/demand-attender.  
+3. Then you will need to click on demand.lxf to download it.  Note that the instructions are not accurate and you may have to improvise.  As the model in there, does not work quite right and will need something to hold it in place because when it shifts, it does not adjust the demand correctly.  If this is the case, then you will need to go into the project and you will need to adjust these blocks:
+
+set motor power to 40
+turn motor on for 0.3 secs
+turn motor off.
+
+Adjust these until it is prefect for the demand energy management system you have.  Also, there are multiple of these same scripts in different sprites.  You will need to change them all.  
+Your demand energy management system number adjustment part might have different distances between numbers.  If that's the case, then follow these steps:
+
+Lets say is a smaller distance between 1 and 2 than there is 2 and 3.
+if KW demand = 1. Insert that into the turning up the demand script. 
+Keep playing around with the numbers until it is perfect no matter how high you decide turn it up.  Need to turn it up to test but want to prevent charges?  Simple, Do NOT do it on: Labor Day, Thanksgiving, Chritmas Eve, Christmas Day, New Years Day, Independence Day, Saturday or Sunday, weekdays 1-3 PM, (weekdays 4-7 PM (basic demand)). Also only do it between 15 minute logging periods, for example, it's 10:33 AM and you're about to do it, wait until like 10:37 or 10:38.
+as this will ensure that it doesn't log as it logs every 15, 30, 45 and 'o' clock of the hour.  If you need help with getting it adjusted correctly, you can post something in the comments and let me know what you need help with. 
+
+Make sure to monitor it for about a week or more and see if it is doing the job right.  Remember that you don't want to rely solely on this program, and you do not need to watch it all the time.  Just look after it every so often. 
+ Let's say you're going on a trip somewhere and you'll be leaving the house for an extended period of time (over 24 hours).
+PLEASE NOTE: the peak days and hours may be different for your area. For my area those are the times.  Check what the ON peak times and days are.
+
+Follow these steps:
+1. Set the demand to a reasonable level
+2. Unplug the Lego motor from your computer or turn off your computer.  You can only turn off your computer in this version because soon I will have scripts in there that will remember the average power "consumed" based on what the KW demand was at in the program, and will tell you the average power consumed as if it was set at that level the whole month.  I just do not know how I will be able to do it because daylight saving time gets in the way.  It will tell you the number in KW at the end of the month. This feature is not built yet. The program does not include over-the-limits. Also I was able to help it work better by adding a piece of duct tape against the wall.
+... Due to it only being not fully tested you cannot rely solely on this program.
+Also here are some pictures of the model, I was not able to get the motor and the gears in the digital designer for some reason. Just remember you can improvise if you need to and depending on how much you improvised, you will need to adjust the values in the script blocks mentioned above.  Again, feel free to post something in the comments. 
+kilgorei.pairserver.com/demand-attender/demand-1.JPG
+kilgorei.pairserver.com/demand-attender/demand-2.JPG
+kilgorei.pairserver.com/demand-attender/demand-3.JPG
+kilgorei.pairserver.com/demand-attender/demand-4.JPG
+kilgorei.pairserver.com/demand-attender/demand-5.JPG
+In the image 5 for demand attender it is a top perspective.
+kilgorei.pairserver.com/demand-attender/demand-6.JPG
+in 6 it is a front side perspective.
+kilgorei.pairserver.com/demand-attender/demand-7.JPG
